@@ -1,0 +1,29 @@
+@import "../../scss/_variables.scss";
+@import "../../scss/_typography.scss";
+
+.Topbar {
+  box-shadow: $box-shadow;
+  height: $spacer * 7;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #1c265a;
+  position: fixed;
+  top: 0;
+
+  color: #b8e737;
+
+  &-fifa {
+    @extend %text-bold-24;
+
+    margin-left: $spacer * 3;
+    margin-right: $spacer;
+  }
+
+  &-challenger {
+    @extend %text-regular-24;
+
+    font-style: italic;
+  }
+}

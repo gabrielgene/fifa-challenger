@@ -1,0 +1,11 @@
+@import "../../scss/_variables.scss";
+@import "../../scss/_typography.scss";
+
+.TableView {
+  &-table {
+    margin-top: $spacer * 11;
+  }
+
+  &-buttom {
+  }
+}

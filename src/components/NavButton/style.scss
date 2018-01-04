@@ -1,0 +1,8 @@
+@import "../../scss/_variables.scss";
+
+.NavButton {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: $spacer * 2;
+}
